@@ -1,14 +1,18 @@
+/* mssv,hoten ,diemtoan,diemly,diemhoa,diemtb
+diemtb =(diemtoan*2+diemly+diemhoa)/4
+*/
 #include <stdio.h>
 int main (){
-    char masosinhvien[]= "PS52562";
-    char hovaten[]= "Huynh Nguyen Gia Bao";
-    float diemtoan =9.0;
-    float diemly= 8.5;
-    float diemhoa=9.5;
-    float diemTB=(diemtoan*2+diemly+diemhoa)/4;
-    printf ("MaSoSinhVien: %s\n",masosinhvien);
-    printf("HoVaTen: %s \n",hovaten);
-    printf ("DiemTB: %.f",diemTB);
-    return 0;
+    char mssv[]="PS52562";
+    char hoten[]="Huynh Nguyen Gia Bao";
+    float diemToan= 9.0;
+    float diemLy=8.5;
+    float diemHoa=9.5;
 
+    float diemTB=(diemToan*2+diemLy+diemHoa)/4;
+
+    printf("Ma So Sinh Vien: %s\n",mssv);
+    printf("Ho va Ten: %s\n",hoten);
+    printf ("Diem TB: %2.f\n",diemTB);
+    return 0;
 }
