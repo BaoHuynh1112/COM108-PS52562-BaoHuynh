@@ -1,10 +1,17 @@
+/* a=5 b=10
+a= a+b
+b= a-b
+a=a-b
+*/
 #include <stdio.h>
 int main (){
     int a=5;
-    int b= 10;
-    int a=a+b;
-    int b=a-b;
-    int a=a-b;
-    
+    int b=10;
+    printf("Truoc khi hoan vi :a=%d,b=%d\n",a,b);
 
+    a=a+b;
+    b=a-b;
+    a=a-b;
+    printf("Sau khi hoan vi: a=%d,b=%d\n",a,b);
+    return 0;
 }
