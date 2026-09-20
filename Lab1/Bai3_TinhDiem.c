@@ -10,4 +10,5 @@ int main (){
     printf("HoVaTen: %s \n",hovaten);
     printf ("DiemTB: %.f",diemTB);
     return 0;
+
 }
