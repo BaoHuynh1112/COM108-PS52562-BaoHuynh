@@ -1,15 +1,14 @@
+/*tinh nghiem cua phuong trinh x=-b/a*/
 #include <stdio.h>
 int main (){
-    int a,b;
-    float x;
-    printf ("\nNhap so a :");
-    scanf("%d",&a);
+    float a,b,x;
 
-    printf ("\nNhap so b :");
-    scanf ("%d",&b);
+    printf ("\n Nhap so a:");
+    scanf("%f",&a);
 
-    x=(float)-b/a;
-    printf ("\nVay nghiem cua phuong trinh x=%.2f ",x);
+    printf("\n Nhap so b:");
+    scanf("%f",&b);
+
+    printf ("\n Vay nghiem cua phuong trinh la X:%.2f ",x=-b/a);
     return 0;
-
 }
