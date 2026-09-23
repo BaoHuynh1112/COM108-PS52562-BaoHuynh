@@ -1,19 +1,22 @@
+/* dieu kien diem tb >=8
+dieu kien hanh kiem tot: 1 dat 0 khong dat */
+
 #include <stdio.h>
 int main (){
-    float diemtb;
-    float diemhk;
-    printf("\nNhap diem TB: ");
-    scanf("%f",&diemtb);
+    float diemTB;
+    int hanhkiem;
 
-    printf ("\nNhap diem hanh kiem: ");
-    scanf ("%f",&diemhk);
+    printf ("\n Nhap Diem Trung Binh Cua Ban:");
+    scanf ("%f",&diemTB);
+    printf ("\n Nhap hieu so hanh kiem :");
+    scanf ("%d",&hanhkiem);
 
-    int dkdtb=diemtb>=8;
-    int dkhk=diemhk>=5;
-    int ketqua=dkdtb&&dkhk;
-
-    printf("\nDieu kien Diem TB de dat hoc bong >=8 %.1f",diemtb);
-    printf ("\nDIeu kien Diem HK de dat hoc bong >=5 %.1f",diemhk);
-    printf ("\nKet qua hoc bong cua ban la: %s",ketqua?"Dat":"Khong Dat");
+    int dkdiem=diemTB>=8;
+    int dkhk=hanhkiem==1;
+    int ketqua=dkdiem&&dkhk;
+    printf ("\n Diem Trung Binh :%.2f",diemTB);
+    printf ("\n Hanh Kiem:%d",hanhkiem);
+    printf ("\n Dieu kien Xet Hoc Bong Cua Ban:%s",ketqua?"Dat":"Khong Dat");
     return 0;
+
 }
