@@ -13,6 +13,6 @@ int main (){
 
     printf("Ma So Sinh Vien: %s\n",mssv);
     printf("Ho va Ten: %s\n",hoten);
-    printf ("Diem TB: %2.f\n",diemTB);
+    printf ("Diem TB: %.2f\n",diemTB);
     return 0;
 }
